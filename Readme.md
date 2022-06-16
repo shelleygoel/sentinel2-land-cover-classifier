@@ -31,8 +31,12 @@ Because original AOIs were too big which resulted in huge sentinel-2 GeoTIFF siz
 - NRCAN and sentinel-2 have different CRS and spatial resolution
 - `rioxarray.reproject_match` is used to align NRCAN to sentinel-2 CRS transform 
 
+![Data prep pipeline](sketches/lc_data.jpg)
 
 
+
+<br>
+<br>
 
 # Modeling
 
@@ -43,3 +47,4 @@ Because original AOIs were too big which resulted in huge sentinel-2 GeoTIFF siz
 - 23% accuracy on Test set
 - Some classes in test set are missing in current train set
 
+![Model pipeline](sketches/lc_model.jpg)
